@@ -1,0 +1,34 @@
+//function speak(names) {
+  //console.log(speakWord + " " + name);
+//}
+
+//var speakWord = "Good Bye";
+//function speak(name) {
+  //console.log(speakWord + " " + name);
+//}
+
+//for (var i = 0; i < names.length; i++) {
+	//var firstLetter = names[i].charAt(0).toLowerCase();
+	//if (firstLetter === 'j') {
+    //byeSpeaker.speak(names[i]);
+  //} else {
+    //helloSpeaker.speak(names[i]);
+  //}
+//}
+
+//})();
+
+//(function (names) {
+//var names = ["Yaakov", "john", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "jim"];
+
+var names = ["Kelly", "Frank", "Paula", "Laura"];
+
+for (var i = 0; i < names.length; i++) {
+	console.log("Hello " + names[i]);
+}
+
+names[100] = "Jim";
+
+for (var i = 0; i < names.length; i++) {
+	console.log("Good bye " + names[i]);
+}
